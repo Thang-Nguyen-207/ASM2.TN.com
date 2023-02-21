@@ -1,0 +1,98 @@
+body{
+    
+}
+header{
+    margin: 0px 10px;
+
+}
+nav{
+    
+    background-color: blue;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 2px 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 20px;
+    border-left: 1px solid white;
+}
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+marquee{
+    background-color: lightblue;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px;
+    
+}footer{
+    border-top:5px solid orangered;
+    line-height:30px;
+    font-size: 15px;
+    background-color:lightcyan;
+    text-align:center;
+    clear:both;
+}
+.thang3{
+    display: flex;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 5px;
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 150px;
+    background-color: white;
+    
+}
+.menu ul li.active a{
+    color: yellow;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    line-height: 40px;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: blue;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: green;
+    color: white;
+}
+aside{
+    padding-left: 20px;
+}
+.menu ul ul a:visited{
+    color: red;
+}
+
